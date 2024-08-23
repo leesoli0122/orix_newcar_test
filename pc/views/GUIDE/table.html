@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="keywords" content="ORIX Capital keywords">
+    <meta name="description" content="ORIX Capital description">
+
+	<meta property="og:locale" content="ko_KR" />
+	<meta property="og:type" content="website" />
+
+	<link href="../../resources/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="../../resources/css/renewal.css" rel="stylesheet" type="text/css" />
+    <link href="../../resources/css/content.css" rel="stylesheet" type="text/css" />
+    
+
+    <script type="text/javascript" src="../../resources/js/jquery.js"></script>
+    <script type="text/javascript" src="../../resources/js/default.js"></script>
+    <script type="text/javascript" src="../../resources/js/jquery-1.9.1.min.js"></script>
+
+
+</head>
+<style>
+    .contents.guide { padding:15px; }
+    .guide .code h4 { margin-bottom:5px; }
+    /* color css */
+    .guide .code .border { margin-bottom:20px; padding:20px; border:1px solid #33333323; border-radius:15px; }
+    .btn-wrap > span{  display:inline; font-weight:bold; }
+    .btn-wrap > button,
+    .btn-wrap > a {  margin-bottom:10px; }
+    .flex { display:flex; align-items: center; }
+</style>
+<body>
+    <div class="wrap">
+        <div id="contentWrap" class="sub-content">
+            <div class="contents-wrap">
+                <div class="contents guide">
+					<div class="code">
+						<section>
+                            <h4>type1 class="table-type table-col"</h4>
+                            <div class="border">
+                                <div class="table-type table-col form-wrap">
+                                    <table>
+                                        <caption>탁송 정보 선택 및 시/도 선택</caption>
+                                        <colgroup>
+                                            <col width="20%">
+                                            <col width="*">
+                                        </colgroup>
+                                        <thead class="thead-hidden">
+                                            <tr>
+                                                <th scope="col">구분</th>
+                                                <th scope="col">내용</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="col" rowspan="2">
+                                                    탁송 정보
+                                                </th>
+                                                <td class="tit">
+                                                    <div class="form-group radio-buttons">
+                                                        <label for="radio-14" class="radio-button">
+                                                            <input type="radio" id="radio-14" name="terms7">
+                                                            <span class="custom-radio"></span>
+                                                            <span class="text">배송</span>
+                                                        </label>
+                                                        <label for="radio-15" class="radio-button">
+                                                            <input type="radio" id="radio-15" name="terms7">
+                                                            <span class="custom-radio"></span>
+                                                            <span class="text">본인출고</span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tit">
+                                                    <div class="form-group">
+                                                        <div class="select-wrap">
+                                                            <button class="btn-select w140">시/도</button>
+                                                            <div class="select-list">
+                                                                <ul>
+                                                                    <li><button type="button">서울특별시</button></li>
+                                                                    <li><button type="button">부산광역시</button></li>
+                                                                    <li><button type="button">대구광역시</button></li>
+                                                                    <li><button type="button">인천광역시</button></li>
+                                                                    <li><button type="button">광주광역시</button></li>
+                                                                    <li><button type="button">대전광역시</button></li>
+                                                                    <li><button type="button">울산광역시</button></li>
+                                                                    <li><button type="button">세종특별자치시</button></li>
+                                                                    <li><button type="button">경기도</button></li>
+                                                                    <li><button type="button">강원특별자치도</button></li>
+                                                                    <li><button type="button">충청북도</button></li>
+                                                                    <li><button type="button">충청남도</button></li>
+                                                                    <li><button type="button">전북특별자치도</button></li>
+                                                                    <li><button type="button">전라남도</button></li>
+                                                                    <li><button type="button">경상북도</button></li>
+                                                                    <li><button type="button">경상남도</button></li>
+                                                                    <li><button type="button">제주특별자치도</button></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <h4>type2 class="table-type table-col"</h4>
+                            <div class="border">
+                                <div class="table-type table-col">
+                                    <table summary="점프론 일반 신용대출의 상환방식인 원금균등분할상환, 원리금균등분할상환에 대한 안내표">
+                                        <caption>점프론 일반 신용대출의 상환방식인 원금균등분할상환, 원리금균등분할상환에 대한 안내표</caption>
+                                        <colgroup>
+                                            <col width="20%">
+                                            <col width="30%">
+                                            <col width="20%">
+                                            <col width="30%">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th>상품정보</th>
+                                                <td>[운용리스]국산차-기본(개인AG)<span class="bage">특판출고</span></td>
+                                                <th>발주일자</th>
+                                                <td>2024.06.11</td>
+                                            </tr>
+                                            <tr>
+                                                <th>인격구분</th>
+                                                <td>개인사업자</td>
+                                                <th>고객명</th>
+                                                <td>홍길동</td>
+                                            </tr>
+                                            <tr>
+                                                <th>발주상태</th>
+                                                <td class="table-r-btn">발주대기<div class="btn-wrap">
+                                                    <button class="btn btn-primary">진행 이력 상세</button>
+                                                </div></td>
+                                                <th>휴대폰</th>
+                                                <td>010-1234-5678</td>
+                                            </tr>
+                                            <tr>
+                                                <th>배정예정일</th>
+                                                <td></td>
+                                                <th>제조자 계약번호</th>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th>본사측 전달사항</th>
+                                                <td></td>
+                                                <th>제조사 코드번호</th>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <h4>테이블-col</h4>
+                            <div class="border">
+                                <div class="table-type table-col form-wrap">
+                                    <table>
+                                        <caption>신용조회 동의 완료 고객 선택 테이블</caption>
+                                        <colgroup>
+                                            <col width="20%">
+                                            <col width="*">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="col" rowspan="2">
+                                                    탁송 정보
+                                                    <span class="no">미확인</span>
+                                                </th>
+                                                <td class="tit">
+                                                    <div class="form-group radio-buttons">
+                                                        <label for="radio-14" class="radio-button">
+                                                            <input type="radio" id="radio-14" name="terms7">
+                                                            <span class="custom-radio"></span>
+                                                            <span class="text">배송</span>
+                                                        </label>
+                                                        <label for="radio-15" class="radio-button">
+                                                            <input type="radio" id="radio-15" name="terms7">
+                                                            <span class="custom-radio"></span>
+                                                            <span class="text">본인출고</span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tit">
+                                                    <div class="form-group">
+                                                        <div class="select-wrap">
+                                                            <button class="btn-select pop w140">시/도</button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+						</section>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 인크루드 퍼블용 스크립트 :  개발에서는 사용안함-->
+	<script>
+        $(function(){
+            $('div[data-include-path]').each(function(){
+                var path = $(this).attr('data-include-path');
+                $(this).load(path,function(response,status,xhr){
+                    if(status == 'error'){
+                        var msg = 'Sory but there was an error:';
+                        $(this).html(msg + xhr.status + '' + xhr.statusText);
+                    }
+                })
+            })
+        })
+    </script>
+    <!-- 인크루드 퍼블용 스크립트 :  개발에서는 사용안함-->
+</body>
+</html>
+
